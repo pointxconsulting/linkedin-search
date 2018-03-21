@@ -1,0 +1,2 @@
+Flask==0.12.1
+Selenium==3.9.0
