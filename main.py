@@ -19,8 +19,8 @@ def hello_world():
   login_link = 'https://www.linkedin.com/'
   driver = webdriver.Chrome()
   driver.get(login_link)
-  login_email = driver.find_element_by_id("login-email").get_attribute('class')
-  return login_email
+#   login_email = driver.find_element_by_id("login-email").get_attribute('class')
+  return login_link
 
 if __name__ == '__main__':
   app.run()
