@@ -17,8 +17,8 @@ def hello_world():
   senority = '6'
   tenure = '5'
   login_link = 'https://www.linkedin.com/'
-#   driver = webdriver.Chrome()
-#   driver.get(login_link)
+  driver = webdriver.Chrome()
+  driver.get(login_link)
   return username
 
 if __name__ == '__main__':
